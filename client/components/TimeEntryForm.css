@@ -1,0 +1,71 @@
+/* TimeEntryForm.css */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style for the form container */
+.time-entry-form-container {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 10px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* Style for form headings */
+.time-entry-form-container h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Style for form labels */
+.time-entry-form-container label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Style for select inputs */
+.time-entry-form-container select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+/* Style for date time inputs */
+.time-entry-form-container input[type="datetime-local"],
+.time-entry-form-container input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+/* Style for submit button */
+.time-entry-form-container button[type="submit"] {
+    background: rgb(0,172,238);
+    background: linear-gradient(0deg, rgba(0,172,238,1) 0%, rgba(2,126,251,1) 100%);
+    width: 130px;
+    height: 40px;
+    line-height: 42px;
+    padding: 0;
+    border: none;
+}
+
+/* Style for inline fields */
+.inline-fields {
+    display: flex;
+    gap: 10px;
+}
+
+.inline-fields > div {
+    flex: 1;
+}

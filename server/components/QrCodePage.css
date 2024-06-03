@@ -1,0 +1,67 @@
+.qr-page-container {
+    padding: 60px;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.qr-page-content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align items to the top */
+}
+
+.manual-entry {
+    width: 350px; /* Set a fixed width for the manual entry form */
+    margin-right: 40px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    padding: 30px;
+}
+
+.manual-entry form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.manual-entry label {
+    font-size: 18px;
+    color: #333;
+}
+
+.manual-entry input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.manual-entry button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.manual-entry button:hover {
+    background-color: #0056b3;
+}
+
+.last-submitted {
+    margin-top: 30px;
+    font-weight: bold;
+    color: #28a745;
+    font-size: 18px;
+}
+
+.qr-code-scanner {
+    width: 400px;
+    height: 400px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}

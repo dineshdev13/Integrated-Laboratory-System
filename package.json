@@ -1,0 +1,31 @@
+{
+  "name": "integrated-laboratory-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run server_page\"",
+    "server": "nodemon index.js",
+    "server_page": "cd server && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arok-Joel/LaboratoryEntrySystem.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arok-Joel/LaboratoryEntrySystem/issues"
+  },
+  "homepage": "https://github.com/Arok-Joel/LaboratoryEntrySystem#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.0",
+    "nodemon": "^3.1.1"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
